@@ -68,14 +68,6 @@ export default function PaginaInicial() {
                 {appConfig.name}
               </Text>
 
-              {/*<input type="text"
-                      value={username}
-                      onChange={function handler(event) {
-                        const valor = event.target.value
-                        setUsername(valor)
-                      }}
-
-                    />  */}
               <TextField
                 value={username}
                 onChange={function handler(event) {
